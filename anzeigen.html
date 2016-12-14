@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>StuffHub</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <header class="container">
+      <div class="col-xs-6">
+        <h1>StuffHub</h1>
+      </div>
+      <div class="col-xs-6 right">
+        <div class="row">
+          Hallo Tim!
+        </div>
+        <div class="row">
+          <a href="#">Profile</a> | <a href="#">Logout</a>
+        </div>
+        <span class="glyphicon glyphicon-bell" style="float: left"></span>
+        <div class="row">
+          <a href="#">3 neue Nachrichten</a>
+        </div>
+      </div>
+    </header>
+
+    <nav>
+      <a href="angebote.html"><div class="menuitem">Angebote</div></a><div class="menuitem mi_active">Anzeigen</div>
+    </nav>
+
+    <section id="content">
+      <div id="searchbar">
+        <div>
+          <input type="text" class="form-control" id="searchbox" placeholder="Suche..."/>
+          <button class="btn" id="searchbutton" type="button" style="background-color: white;"><span class=" glyphicon glyphicon-search"></span></button>
+        </div>
+      </div>
+
+      <div class="row" id="catchooser1">
+        <div class="catlabel col-xs-4">
+          <label for="category">Kategorie:</label>
+        </div>
+        <div class="col-xs-6">
+          <select class="form-control" id="category">
+            <option>Alle</option>
+            <option>Garten</option>
+            <option>Innenraum</option>
+            <option>Deko</option>
+            <option>Spiele</option>
+            <option>Medien</option>
+            <option>Fitness</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="addbutton"><span class="glyphicon glyphicon-plus"></span></div>
+
+      <div class="row" id="catchooser2">
+        <div class="catlabel col-xs-4">
+          <label for="category">Subkategorie:</label>
+        </div>
+        <div class="col-xs-6">
+          <select class="form-control" id="category">
+            <option>Alle</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row entry">
+        <p class="entryright">10.12.2016</p>
+        <h2>Suche Bohrmaschine</h2>
+        <p>Suche dringend eine Bohrmaschine...</p>
+        <p>Hausfeldstraße 15, 1220 Wien</p>
+      </div>
+
+      <div class="row entry">
+        <p class="entryright">9.12.2016</p>
+        <h2>Suche Gitarre</h2>
+        <p>Benötige eine Gitarre für eine Party...</p>
+        <p>Sonnenallee 1, 1220 Wien</p>
+      </div>
+
+      <div class="row entry">
+        <p class="entryright">9.12.2016</p>
+        <h2>Suche Zitronenpresse</h2>
+        <p>Möchte nächste Woche ein neues Rezept...</p>
+        <p>Wien</p>
+      </div>
+
+    </section>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
