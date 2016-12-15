@@ -1,18 +1,29 @@
+header {
+	background-color: #27566B;
+}
+
 header .right{
 	text-align: right;
+	color: white;
+	font-weight: bold;
 }
 
 /* Bell bitte nur im Header verwenden. Formatierung ist extra dafür*/
 .glyphicon-bell {
 	font-size: 25px;
 	margin-top: -25px;
-	color: #aa0000;
+	color: #AA4F39;
+}
+
+body {
+	background-color: #27566B;
 }
 
 /* nav für die Angebote/Anzeigen-Navigation */
 nav {
 	text-align: center;
 	padding: 0px 5px;
+	background-color: #27566B;
 }
 
 /* Link-Farbe im Menü bleibt schwarz*/
@@ -28,22 +39,26 @@ nav a {
 	margin: 0;
 	padding: 5px 3px;
 	border: 1px solid black;
-	background-color: white;
+	background-color: #AA4F39;
+	color: white;
+	font-weight: bold;
+	font-size: 1.2em;
 }
 
 /* Auswahlfarbe fürs Menü*/
 .menuitem:active {
-	background-color: #A6C5D3;
+	background-color: #AA8A39;
 }
 
 /* Derzeit ausgewähltes Menüitem*/
 .mi_active {
-	background-color: #A6C5D3;
+	background-color: #AA8A39;
 }
 
 /* Der Hauptinhaltsbereich, in welchem der Hauptteil der Seite (unterhalb des Menüs) ist */
 #content {
 	padding: 5px;
+	background-color: #27566B;
 }
 
 /* Keine Linkfarbe im Content */
@@ -54,6 +69,7 @@ nav a {
 #searchbar {
 	width: 100%;
 	display: table;
+	background-color: #27566B;
 }
 
 /*Serachbar braucht intern einen weiteren Div, damit das Table-Layout funktioniert*/
@@ -65,16 +81,23 @@ nav a {
 #searchbox {
 	max-width: 85%;
 	display: table-cell;
+	background-color: white;
 }
 
 #searchbutton {
 	display: table-cell;
 	min-width: 14px;
+	margin-left: 4px;
+	background-color: #AA4F39;
 }
 
 /* Innerhalb des Contents werden Rows mit etwas mehr Margin versehen*/
 #content .row {
 	margin: 5px 5px 0px 5px;
+}
+
+#content .row.entry {
+	background-color: #6E92A1;
 }
 
 /* Label für die Kategorie-ComboBoxes. Verschiebt es leicht nach unten, damits halbwegs vertikal zentriert ausschaut */
@@ -91,6 +114,7 @@ nav a {
 	border-radius: 16px;
 	float: right;
 	margin-right: 10px;
+	background-color: #AA4F39;
 }
 
 .addbutton span {
@@ -119,6 +143,12 @@ nav a {
 	display: inline-block;
 }
 
+h1 {
+	color: white;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
 h2 {
 	margin-top: 2px;
 	font-size: 24px;
@@ -128,4 +158,24 @@ h2 {
 .entryright {
 	text-align: right;
 	float: right;
+}
+
+header .row a {
+	color: #AA4F39;
+}
+
+section .row {
+	color: white;
+	font-weight: bold;
+}
+
+.form-control {
+	background-color: #6E92A1;
+	color: white;
+	font-weight: bold;
+}
+
+.jumbotron {
+	background-color: #A6C5D3;
+	height: 100%;
 }
