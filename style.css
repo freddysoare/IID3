@@ -174,8 +174,3 @@ section .row {
 	color: white;
 	font-weight: bold;
 }
-
-.jumbotron {
-	background-color: #A6C5D3;
-	height: 100%;
-}
