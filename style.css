@@ -39,7 +39,7 @@ nav a {
 	margin: 0;
 	padding: 5px 3px;
 	border: 1px solid black;
-	background-color: #AA4F39;
+	background-color: #103D50;
 	color: white;
 	font-weight: bold;
 	font-size: 1.2em;
@@ -161,7 +161,7 @@ h2 {
 }
 
 header .row a {
-	color: #AA4F39;
+	color: #D47E6A;
 }
 
 section .row {
