@@ -10,8 +10,7 @@
     <!-- Bootstrap -->
     <link href="./../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="./../style.css" rel="stylesheet">
-    <link href="./anzeige-detail.css" rel="stylesheet">
-
+    <link href="./angebot-detail.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,7 +42,7 @@
     </header>
 
     <nav class="backnavbar">
-      <a href="../angebote.html">
+      <a href="#" onclick="history.back()">
         <div class="navbar_left">
           &lt; Zur&uuml;ck
         </div>
@@ -51,37 +50,44 @@
     </nav>
 
     <section id="content">
-
-      <section id="content">
-        <div class="jumbotron">
-          <div class="content-part">
-            <img src="./../img/Bohrmaschine.jpg" alt="Bohrmaschine" />
-          </div>
-          <div class="content-part">
-            <h2>Bohrmaschine</h2>
-            <p>User: <a href="#">Hasi86</a> <span class="glyphicon glyphicon-star"></span><span class="badge">12</span></p>
-            <p>Zustand: Selten gebraucht</p>
-          </div>
-          <div class="content-detail">
-            Eine Bosch Schlagborhmaschine Gsb 13 Re.
-            Guter Zustand, verwende ich nur selten, daher
-            kann ich sie gerne ab und zu herleihen.
-            <p></p>
-            <p>Ort: Hausfeldstraße 12, 1220 Wien</p>
-            <p>Zeit: Mo-Fr jeweils Abends</p>
-          </div>
+      <div class="jumbotron">
+        <div class="content-part">
+          <img src="./../img/Bohrmaschine.jpg" alt="Bohrmaschine" />
         </div>
-        <div id="send">
-          Leihanfrage gesendet - Antwort ausstehend
+        <div class="content-part">
+          <h2>Bohrmaschine</h2>
+          <p>User: <a href="#">Hasi86</a> <span class="glyphicon glyphicon-star"></span><span class="badge">12</span></p>
+          <p>Zustand: Selten gebraucht</p>
         </div>
-
-      </section>
+        <div class="content-detail">
+          Eine Bosch Schlagborhmaschine Gsb 13 Re.
+          Guter Zustand, verwende ich nur selten, daher
+          kann ich sie gerne ab und zu herleihen.
+          <p></p>
+          <p>Ort: Hausfeldstraße 12, 1220 Wien</p>
+          <p>Zeit: Mo-Fr jeweils Abends</p>
+        </div>
+      </div>
 
     </section>
+    <div id="createOrder">
+      <a href="#" onclick="toggleVisibility('#leihanfrage')" ><div class="button" >Leihanfrage stellen</div></a>
+    </div>
 
+    <div id="leihanfrage" style="display: none">
+      <div class="form-group" style="padding: 5px">
+        <h2 for="comment">Kommentar:</h2>
+        <textarea class="form-control" rows="5" id="comment"></textarea>
+      </div>
+
+      <div id="send">
+        <a href="../leihanfrageStellen/bohrmaschine.html" ><div class="button" >Absenden</div></a>
+      </div>
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../script.js"></script>
   </body>
 </html>
