@@ -38,7 +38,7 @@
     </header>
 
     <nav class="backnavbar">
-      <a href="benachrichtigungen_anfrage.html">
+      <a href="#" onclick="history.back()">
         <div class="navbar_left">
           &lt; Zur&uuml;ck
         </div>
@@ -50,17 +50,25 @@
 
     <section id="content">
 
-      <div class="row entry">
-        <h2 class="small">Antwort</h2>
-        <textarea rows="6"></textarea>
-        <div style="text-align: right">
-          <button class="btn btn-default">Antworten</button>
+      <div class="row">
+        <div class="entrypart">
+          <img src="img/user.jpg" width="100">
         </div>
-        <br>
-        <h2 class="small">Originalnachricht</h2>
-        <p>User: <a href="#">Ursi</a><br>Angebot: <a href="#">Ventilator</a></p>
-        <p>Hey Tim :) Ich würd mir gern für eine Woche deinen Ventilator ausborgen, ich wohne in Floridsdorf. Hast du morgen Abend Zeit dich zu treffen?</p>
+        <div class="entrypart">
+          <h2>Tim</h2>
+          <p><span class="glyphicon glyphicon-star"></span> Karma: 20</p>
+        </div>
       </div>
+
+      <a href="#">
+          <button class="btn btn-default profilebutton">Profil bearbeiten</button>
+      </a>
+      <a href="#">
+          <button class="btn btn-default profilebutton">Eigene Angebote</button>
+      </a>
+      <a href="#">
+          <button class="btn btn-default profilebutton">Eigene Anzeigen</button>
+      </a>
 
     </section>
 

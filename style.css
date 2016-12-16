@@ -266,3 +266,8 @@ p {
 .entry textarea {
 	width: 100%;
 }
+
+.profilebutton {
+	margin: 20px 5px;
+	display: block;
+}
