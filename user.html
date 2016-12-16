@@ -31,34 +31,46 @@
         <div class="row">
           <a href="profile.html">Profil</a> | <a href="#">Logout</a>
         </div>
-        <div class="row">
-          <a href="#">Keine neuen Nachrichten</a>
-        </div>
+        <a class="messages" href="benachrichtigungen.html">
+          <span class="glyphicon glyphicon-bell" style="float: left"></span>
+          <div class="row">
+            3 neue Nachrichten
+          </div>
+        </a>
       </div>
     </header>
 
     <nav class="backnavbar">
-      <a href="benachrichtigungen.html">
+      <a href="#" onclick="history.back()">
         <div class="navbar_left">
           &lt; Zur&uuml;ck
         </div>
       </a>
       <div class="navbar_right">
-        Nachrichten
+        Hasi86
       </div>
     </nav>
 
     <section id="content">
 
-      <div class="row entry">
-        <h2 class="small">Neue Anfrage</h2>
-        <p>User: <a href="user.html">Ursi</a><br>Angebot: <a href="angebotdetail_nikon.html">Ventilator</a></p>
-        <p>Hey Tim :) Ich würd mir gern für eine Woche deinen Ventilator ausborgen, ich wohne in Floridsdorf. Hast du morgen Abend Zeit dich zu treffen?</p>
-        <div class="buttonbar">
-          <a href="antworten.html"><button class="btn btn-default">Antworten</button></a>
-          <button class="btn btn-default" id="btnReject" onclick="replaceButton('#btnReject', 'Abgelehnt'); disable('#btnConfirm');">Ablehnen</button><br>
-          <button class="btn btn-default" id="btnConfirm" onclick="replaceButton('#btnConfirm', 'Tausch bestätigt!'); disable('#btnReject')">Tausch bestätigen</button>
+      <div class="row">
+        <div class="entrypart">
+          <img src="img/hasi86.jpg" width="100">
         </div>
+        <div class="entrypart">
+          <h2>Hasi86</h2>
+          <p><span class="glyphicon glyphicon-star"></span> Karma: 12</p>
+        </div>
+          <p>Wohnhaft in Wien. Jung, hübsch, und für jeden Spaß zu haben.</p>
+      </div>
+      <br>
+      <div class="row entry">
+        <h2 class="small">Nachricht</h2>
+        <textarea class="form-control" rows="6"></textarea>
+        <div style="text-align: right">
+          <a href="benachrichtigungen.html" class="messages"><button class="btn btn-default">Senden</button></a>
+        </div>
+        <br>
       </div>
 
     </section>
@@ -67,6 +79,5 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
   </body>
 </html>
