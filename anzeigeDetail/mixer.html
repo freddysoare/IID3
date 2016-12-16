@@ -8,8 +8,10 @@
     <title>StuffHub</title>
 
     <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link href="./../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./../style.css" rel="stylesheet">
+    <link href="./anzeige-detail.css" rel="stylesheet">
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,7 +23,7 @@
   <body>
 
     <header class="container">
-      <a href="angebote.html"><div class="col-xs-6">
+      <a href="./../angebote.html"><div class="col-xs-6">
         <h1>StuffHub</h1>
       </div></a>
       <div class="col-xs-6 right">
@@ -29,9 +31,9 @@
           Hallo Tim!
         </div>
         <div class="row">
-          <a href="profile.html">Profil</a> | <a href="#">Logout</a>
+          <a href="./../profile.html">Profil</a> | <a href="#">Logout</a>
         </div>
-        <a href="benachrichtigungen.html" class="messages">
+        <a href="./../benachrichtigungen.html" class="messages">
           <span class="glyphicon glyphicon-bell" style="float: left"></span>
           <div class="row">
             3 neue Nachrichten
@@ -41,61 +43,42 @@
     </header>
 
     <nav class="backnavbar">
-      <a href="profile.html">
+      <a href="#" onclick="history.back()">
         <div class="navbar_left">
           &lt; Zur&uuml;ck
         </div>
       </a>
-      <div class="navbar_right">
-        Eigene Angebote
-      </div>
-    </nav>
-
-    <nav>
-      <div class="menuitem mi_active">Angebote</div><a href="eigeneanzeigen.html"><div class="menuitem">Anzeigen</div></a>
     </nav>
 
     <section id="content">
 
-      <a href="angebotserstellung.html"><button class="btn btn-default">Neues Angebot erstellen</button></a>
-
-      <a href="angebotDetail/nikon.html">
-        <div class="row entry">
-          <div class="entrypart col-xs-4">
-            <img src="img/ventilator.jpg" alt="Ventilator" width="100"/>
+      <section id="content">
+        <div class="jumbotron">
+          <div class="content-part">
+            <h2>Mixer</h2>
+            <p>User: <a href="../profile.html">Tim</a> <span class="glyphicon glyphicon-star"></span><span class="badge">20</span></p>
+            <p>Erstellt: 3.12.2016</p>
           </div>
-          <div class="entrypart col-xs-6">
-            <h2>Ventilator</h2>
-            <p>Wien</p>
-            <p class="entryright">
-              1 Interessent
-            </p>
-            <p>Flexibel</p>
+          <div class="content-detail">
+            Suche einen Mixer fürs Kochen.
+            <p></p>
+            <p>Ort: Wien</p>
+            <p>Zeit: Flexibel</p>
           </div>
         </div>
-      </a>
 
-      <a href="angebotDetail/nikon.html">
-        <div class="row entry">
-          <div class="entrypart col-xs-4">
-            <img src="img/Nikon.jpg" alt="Nikon D7000" width="100"/>
-          </div>
-          <div class="entrypart col-xs-6">
-            <h2>Nikon D7000</h2>
-            <p>Wien</p>
-            <p class="entryright">
-              Verliehen
-            </p>
-            <p>Flexibel</p>
-          </div>
-        </div>
-      </a>
-
+      </section>
+      <div id="createOffer">
+        <a href="#" ><div class="smallerbutton" >Bearbeiten</div></a>
+        <a href="#" ><div class="smallerbutton" >Löschen</div></a>
+      </div>
+      <br>
+      <p>1 Vorschlag von <a href="../user.html">Sabrina2</a>: <a href="../angebotDetail/borhmaschine.html">Mixer</a></p>
     </section>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="./../bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>

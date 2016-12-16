@@ -8,8 +8,9 @@
     <title>StuffHub</title>
 
     <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link href="./../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./../style.css" rel="stylesheet">
+    <link href="./angebot-detail.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,7 +22,7 @@
   <body>
 
     <header class="container">
-      <a href="angebote.html"><div class="col-xs-6">
+      <a href="./../angebote.html"><div class="col-xs-6">
         <h1>StuffHub</h1>
       </div></a>
       <div class="col-xs-6 right">
@@ -29,43 +30,52 @@
           Hallo Tim!
         </div>
         <div class="row">
-          <a href="profile.html">Profil</a> | <a href="#">Logout</a>
+          <a href="./../profile.html">Profil</a> | <a href="#">Logout</a>
         </div>
-        <div class="row">
-          <a href="#">Keine neuen Nachrichten</a>
-        </div>
+        <a href="./../benachrichtigungen.html" class="messages">
+          <span class="glyphicon glyphicon-bell" style="float: left"></span>
+          <div class="row">
+            3 neue Nachrichten
+          </div>
+        </a>
       </div>
     </header>
 
     <nav class="backnavbar">
-      <a href="benachrichtigungen.html">
+      <a href="#" onclick="history.back()">
         <div class="navbar_left">
           &lt; Zur&uuml;ck
         </div>
       </a>
-      <div class="navbar_right">
-        Nachrichten
-      </div>
     </nav>
 
     <section id="content">
-
-      <div class="row entry">
-        <h2 class="small">Nachricht</h2>
-        <p>User: <a href="user.html">Bunny95</a><br>Angebot: <a href="angebotDetail/nikon.html">Nikon D7000</a></p>
-        <p>Hallo! Danke für die Kamera! Brauche sie jetzt nicht mehr. Wann können wir uns treffen? Ich habe morgen den ganzen Tag Zeit.</p>
-        <div class="buttonbar">
-          <a href="antworten.html"><button class="btn btn-default">Antworten</button></a><br>
-          <button class="btn btn-default" id="btnConfirm" onclick="replaceButton('#btnConfirm', 'Rückgäbe bestätigt!');">Rückgabe bestätigen</button>
+      <div class="jumbotron">
+        <div class="content-part">
+          <img src="./../img/Nikon.jpg" alt="Nikon" />
+        </div>
+        <div class="content-part">
+          <h2>Nikon D7000</h2>
+          <p>User: <a href="../profile.html">Tim</a> <span class="glyphicon glyphicon-star"></span><span class="badge">20</span></p>
+          <p>Zustand: Selten gebraucht</p>
+        </div>
+        <div class="content-detail">
+          Gut funktionierende DSLR-Kamera mit Wechselobjektiven.
+          <p></p>
+          <p>Ort: Wien</p>
+          <p>Zeit: Flexibel</p>
         </div>
       </div>
 
     </section>
-
+    <div id="createOrder">
+      <div class="smallerbutton" >Bearbeiten</div>
+      <div class="smallerbutton" >Löschen</div>
+    </div><br>
+    <p>Verliehen an <a href="../user.html">Bunny95</a></p>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
+    <script src="./../bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
