@@ -31,43 +31,43 @@
         <div class="row">
           <a href="profile.html">Profil</a> | <a href="#">Logout</a>
         </div>
-        <div class="row">
-          <a href="#">Keine neuen Nachrichten</a>
-        </div>
+        <a href="benachrichtigungen.html">
+          <span class="glyphicon glyphicon-bell" style="float: left"></span>
+          <div class="row">
+            3 neue Nachrichten
+          </div>
+        </a>
       </div>
     </header>
 
     <nav class="backnavbar">
-      <a href="#" onclick="history.back()">
+      <a href="profile.html">
         <div class="navbar_left">
           &lt; Zur&uuml;ck
         </div>
       </a>
       <div class="navbar_right">
-        Profil
+        Eigene Anzeigen
       </div>
+    </nav>
+
+    <nav>
+      <a href="eigeneangebote.html"><div class="menuitem">Angebote</div></a><div class="menuitem mi_active">Anzeigen</div>
     </nav>
 
     <section id="content">
 
-      <div class="row">
-        <div class="entrypart">
-          <img src="img/user.jpg" width="100">
-        </div>
-        <div class="entrypart">
-          <h2>Tim</h2>
-          <p><span class="glyphicon glyphicon-star"></span> Karma: 20</p>
-        </div>
-      </div>
+      <a href="anzeigenerstellung.html"><button class="btn btn-default">Neue Anzeige erstellen</button></a>
 
       <a href="#">
-          <button class="btn btn-default profilebutton">Profil bearbeiten</button>
-      </a>
-      <a href="eigeneangebote.html">
-          <button class="btn btn-default profilebutton">Eigene Angebote</button>
-      </a>
-      <a href="eigeneanzeigen.html">
-          <button class="btn btn-default profilebutton">Eigene Anzeigen</button>
+        <div class="row entry">
+          <h2>Suche Mixer</h2>
+          <p>Wien</p>
+          <p class="entryright">
+            1 Vorschlag
+          </p>
+          <p>Flexibel</p>
+        </div>
       </a>
 
     </section>
