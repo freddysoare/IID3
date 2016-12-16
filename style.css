@@ -31,6 +31,35 @@ nav a {
 	color: black;
 }
 
+nav.backnavbar {
+	padding: 5px;
+	margin: 5px;
+	background-color: #A6C5D3;
+	display: block;
+	height: 30px;
+	font-size: 15px;
+}
+
+.navbar_left {
+	display: inline;
+	text-align: left;
+	float: left;
+	width: 50%;
+	padding-left: 10px;
+}
+
+.backnavbar a {
+	text-decoration: underline;
+}
+
+.navbar_right {
+	float: right;
+	text-align: right;
+	display: inline;
+	width: 50%;
+	padding-right: 10px;
+}
+
 /* Menüitem der Angebote/Anzeigen-Navigation */
 .menuitem {
 	box-sizing: border-box;
@@ -186,4 +215,16 @@ section .row {
 
 p {
 	font-weight: normal;
+}
+
+.buttonbar {
+	text-align: center;
+}
+
+.buttonbar button {
+	margin: 5px 20px;
+}
+
+.entry textarea {
+	width: 100%;
 }
