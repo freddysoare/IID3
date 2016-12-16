@@ -52,12 +52,14 @@
         </div>
       </div>
 
+      <a href="anzeigenerstellung.html"><div class="addbutton"><span class="glyphicon glyphicon-plus"></span></div></a>
+
       <div class="row" id="catchooser1">
         <div class="catlabel col-xs-4">
           <label for="category">Kategorie:</label>
         </div>
         <div class="col-xs-6">
-          <select class="form-control" id="category">
+          <select class="form-control" id="category" onchange="setCategories()">
             <option>Alle</option>
             <option>Garten</option>
             <option>Innenraum</option>
@@ -69,46 +71,58 @@
         </div>
       </div>
 
-      <a href="anzeigenerstellung.html"><div class="addbutton"><span class="glyphicon glyphicon-plus"></span></div></a>
-
       <div class="row" id="catchooser2">
         <div class="catlabel col-xs-4">
-          <label for="category">Subkategorie:</label>
+          <label for="subcategory">Subkategorie:</label>
         </div>
         <div class="col-xs-6">
-          <select class="form-control" id="category">
+          <select class="form-control" id="subcategory">
             <option>Alle</option>
           </select>
         </div>
       </div>
-      <a href="anzeigeDetail/bohrmaschine.html">
-        <div class="row entry">
-          <p class="entryright">10.12.2016</p>
-          <h2>Suche Bohrmaschine</h2>
-          <p>Suche dringend eine Bohrmaschine...</p>
-          <p>Hausfeldstraße 15, 1220 Wien</p>
-        </div>
-      </a>
-
       <div class="row entry">
-        <p class="entryright">9.12.2016</p>
-        <h2>Suche Gitarre</h2>
-        <p>Benötige eine Gitarre für eine Party...</p>
-        <p>Sonnenallee 1, 1220 Wien</p>
+        <a href="anzeigeDetail/bohrmaschine.html">
+          <div class="row entry">
+            <p class="entryright">10.12.2016</p>
+            <h2>Suche Bohrmaschine</h2>
+            <p>Suche dringend eine Bohrmaschine...</p>
+            <p>Hausfeldstraße 15, 1220 Wien</p>
+          </div>
+        </a>
       </div>
 
       <div class="row entry">
-        <p class="entryright">9.12.2016</p>
-        <h2>Suche Zitronenpresse</h2>
-        <p>Möchte nächste Woche ein neues Rezept...</p>
-        <p>Wien</p>
+		<div>
+		<div>
+			<p class="entryright">9.12.2016</p>
+			<h2>Suche Gitarre</h2>
+			<p>Benötige eine Gitarre für eine Party...</p>
+			<p>Sonnenallee 1, 1220 Wien</p>
+		</div>
+		</div>
       </div>
 
       <div class="row entry">
-        <p class="entryright">9.12.2016</p>
-        <h2>Suche Dampfgarer</h2>
-        <p>Möchte nächste Woche ein neues Rezept...</p>
-        <p>Wien</p>
+		<div>
+		<div>
+			<p class="entryright">9.12.2016</p>
+			<h2>Suche Zitronenpresse</h2>
+			<p>Möchte nächste Woche ein neues Rezept...</p>
+			<p>Wien</p>
+		</div>
+		</div>
+      </div>
+
+      <div class="row entry">
+		<div>
+		<div>
+			<p class="entryright">9.12.2016</p>
+			<h2>Suche Dampfgarer</h2>
+			<p>Möchte nächste Woche ein neues Rezept...</p>
+			<p>Wien</p>
+		</div>
+		</div>
       </div>
 
     </section>
@@ -117,5 +131,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
