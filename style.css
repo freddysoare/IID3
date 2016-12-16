@@ -1,18 +1,4 @@
-header {p {
-	font-weight: normal;
-}
-
-.buttonbar {
-	text-align: center;
-}
-
-.buttonbar button {
-	margin: 5px 20px;
-}
-
-.entry textarea {
-	width: 100%;
-}
+header {
 	background-color: #111c27;
 }
 
