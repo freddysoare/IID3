@@ -52,12 +52,11 @@
 
       <div class="row entry">
         <h2 class="small">Nachricht</h2>
-        <p>User: <a href="#">Bunny95</a><br>Angebot: <a href="#">Nikon D7000</a></p>
+        <p>User: <a href="#">Bunny95</a><br>Angebot: <a href="angebotdetail_nikon.html">Nikon D7000</a></p>
         <p>Hallo! Danke für die Kamera! Brauche sie jetzt nicht mehr. Wann können wir uns treffen? Ich habe morgen den ganzen Tag Zeit.</p>
         <div class="buttonbar">
-          <button class="btn btn-default">Antworten</button>
-          <button class="btn btn-default">Ablehnen</button><br>
-          <button class="btn btn-default">Rückgabe bestätigen</button>
+          <button class="btn btn-default">Antworten</button><br>
+          <button class="btn btn-default" id="btnConfirm" onclick="replaceButton('#btnConfirm', 'Tausch bestätigt!');">Rückgabe bestätigen</button>
         </div>
       </div>
 
@@ -67,5 +66,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

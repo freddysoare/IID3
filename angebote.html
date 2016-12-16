@@ -52,12 +52,14 @@
         </div>
       </div>
 
+      <a href="angebotserstellung.html"><div class="addbutton"><span class="glyphicon glyphicon-plus"></span></div></a>
+
       <div class="row" id="catchooser1">
         <div class="catlabel col-xs-4">
           <label for="category">Kategorie:</label>
         </div>
         <div class="col-xs-6">
-          <select class="form-control" id="category">
+          <select class="form-control" id="category" onchange="setCategories()">
             <option>Alle</option>
             <option>Garten</option>
             <option>Innenraum</option>
@@ -69,14 +71,12 @@
         </div>
       </div>
 
-      <a href="angebotserstellung.html"><div class="addbutton"><span class="glyphicon glyphicon-plus"></span></div></a>
-
       <div class="row" id="catchooser2">
         <div class="catlabel col-xs-4">
-          <label for="category">Subkategorie:</label>
+          <label for="subcategory">Subkategorie:</label>
         </div>
         <div class="col-xs-6">
-          <select class="form-control" id="category">
+          <select class="form-control" id="subcategory">
             <option>Alle</option>
           </select>
         </div>
@@ -144,6 +144,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
+<<<<<<< HEAD
 	<script src="scripts.js"></script>
+=======
+    <script src="script.js"></script>
+>>>>>>> a690ae40ea11eb9e2d6eb8b42647fc5a6c4e2fde
   </body>
 </html>

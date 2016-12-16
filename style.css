@@ -144,6 +144,7 @@ nav.backnavbar {
 	float: right;
 	margin-right: 10px;
 	background-color: #f6793f;
+	margin-top: 5px;
 }
 
 .addbutton span {
@@ -160,7 +161,7 @@ nav.backnavbar {
 
 /* Klickfarbe für die Einträge*/
 .entry:active {
-	background-color: #A6C5D3;
+	background-color: #A6C5D3 !important;
 }
 
 .entry img {
@@ -198,12 +199,6 @@ header a {
 }
 
 section .row {
-	color: white;
-	font-weight: bold;
-}
-
-.form-control {
-	background-color: #3b7178;
 	color: white;
 	font-weight: bold;
 }
@@ -251,9 +246,19 @@ p {
 
 .entry textarea {
 	width: 100%;
+	margin-bottom: 5px;
 }
 
 .profilebutton {
 	margin: 20px 5px;
 	display: block;
+}
+
+#content p > a {
+	color: white;
+	text-decoration: underline;
+}
+
+#catchooser2 {
+	display: none;
 }
