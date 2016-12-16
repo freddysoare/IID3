@@ -1,0 +1,23 @@
+- Startseite (Angebots- und Anfragenübersicht)
+
+- Simple Angebotssuche
+
+- Simple Anfragensuche
+
+- Simples Filtern nach Kategorie
+
+- Detailseite eines Angebots
+
+- Anfragen eines Angebots
+
+- Detailseite einer Anfrage
+
+- Beantworten einer Anfrage
+
+- Erstellen von Angeboten
+
+- Bearbeiten von Angeboten
+
+- Erstellen von Anfragen
+
+- Beantwortung von Antworten auf Anfragen
