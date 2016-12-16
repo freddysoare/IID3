@@ -56,8 +56,8 @@
         <p>Hey Tim :) Ich würd mir gern für eine Woche deinen Ventilator ausborgen, ich wohne in Floridsdorf. Hast du morgen Abend Zeit dich zu treffen?</p>
         <div class="buttonbar">
           <a href="antworten.html"><button class="btn btn-default">Antworten</button></a>
-          <button class="btn btn-default">Ablehnen</button><br>
-          <button class="btn btn-default">Tausch bestätigen</button>
+          <button class="btn btn-default" id="btnReject" onclick="replaceButton('#btnReject', 'Abgelehnt'); disable('#btnTB');">Ablehnen</button><br>
+          <button class="btn btn-default" id="btnConfirm" onclick="replaceButton('#btnConfirm', 'Tausch bestätigt!'); disable('#btnReject')">Tausch bestätigen</button>
         </div>
       </div>
 
@@ -67,5 +67,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
