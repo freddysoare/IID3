@@ -154,13 +154,17 @@ h2 {
 	font-size: 24px;
 }
 
+h2.small {
+	font-size: 20px;
+}
+
 /* Für Datums-Info in den Anzeigen*/
 .entryright {
 	text-align: right;
 	float: right;
 }
 
-header .row a {
+header a {
 	color: #AA4F39;
 }
 
@@ -178,4 +182,8 @@ section .row {
 .jumbotron {
 	background-color: #A6C5D3;
 	height: 100%;
+}
+
+p {
+	font-weight: normal;
 }
