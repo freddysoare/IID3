@@ -259,6 +259,9 @@ p {
 .profilebutton {
 	margin: 20px 5px;
 	display: block;
+	background-color: #f6793f;
+	color: black;
+	text-align: center;
 }
 
 
