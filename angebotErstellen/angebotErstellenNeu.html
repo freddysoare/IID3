@@ -10,7 +10,6 @@
     <!-- Bootstrap -->
     <link href="./../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="./../style.css" rel="stylesheet">
-    <link href="./angebot-erstellen.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,36 +19,125 @@
     <![endif]-->
   </head>
   <body>
-    <header id="createOffer">
-      <a href="./angebotErstellen.html" ><div class="button" >Angebot erstellen</div></a>
+
+    <header class="container">
+      <a href="./../angebote.html"><div class="col-xs-6">
+        <h1>StuffHub</h1>
+      </div></a>
+      <div class="col-xs-6 right">
+        <div class="row">
+          Hallo Tim!
+        </div>
+        <div class="row">
+          <a href="./../profile.html">Profil</a> | <a href="#">Logout</a>
+        </div>
+        <a href="./../benachrichtigungen.html" class="messages">
+          <span class="glyphicon glyphicon-bell" style="float: left"></span>
+          <div class="row">
+            3 neue Nachrichten
+          </div>
+        </a>
+      </div>
     </header>
 
-    <nav>
-      <div class="menuitem mi_active">Neu</div><a href="angebotErstellenBestehend.html"><div class="menuitem">Bestehend</div></a>
+	<nav class="backnavbar">
+      <a href="#" onclick="history.back()">
+        <div class="navbar_left">
+          &lt; Zur&uuml;ck
+        </div>
+      </a>
+      <div class="navbar_right">
+        Neues Angebot
+      </div>
     </nav>
 
     <section id="content">
-      <div class="form-group">
-        <div class="row">Neues Angebot als Antwort anlegen:</div>
-        <label for="description">Bezeichnung</label>
-        <input type="text" class="form-control" id="description">
-        <div class="entrypart">
-          <label for="state">Zustand</label>
-          <div class="col-xs-6">
-            <select class="form-control" id="state">
-              <option>Neu</option>
-              <option>Gebraucht</option>
-            </select>
-          </div>
-        </div>
-        <label for="comment">Kommentar:</label>
-        <textarea class="form-control" rows="5" id="comment"></textarea>
-      </div>
+		<div class="row">
+			<div class="form-group">
+				<label for="bezeichnungbox">Bezeichnung</label>
+				<input type="text" class="form-control" id="bezeichnungbox" placeholder="Bezeichnung..."/>
+			</div>
+		</div>
 
+		<div class="row">
+			<div class="col-xs-6 col-md-4">
+				<div class="row">
+					<div class="form-group">
+						<label for="zustandbox">Zustand</label>
+						<div class="row">
+							<div class="col-sm-6">
+								<select class="form-control" id="zustandbox">
+									<option>Neu</option>
+									<option>Gebraucht</option>
+									<option>Keine Angabe</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="form-group">
+						<label for="category">Kategorie</label>
+						<div class="row">
+							<div class="col-sm-6">
+								<select class="form-control" id="category">
+									<option>Alle</option>
+									<option>Garten</option>
+									<option>Innenraum</option>
+									<option>Deko</option>
+									<option>Spiele</option>
+									<option>Medien</option>
+									<option>Fitness</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="form-group">
+						<label for="category">Subkategorie</label>
+						<div class="row">
+							<div class="col-sm-6">
+								<select class="form-control" id="category">
+									<option>Alle</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-6 col-md-4">
+				<a href="#">
+					<div class="bildauswaehlen_feld">
+						<div class="bildauswaehlen_text">Bild ausw&auml;hlen...</div>
+					</div>
+				</a>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="form-group">
+				<label for="kommentarbox">Kommentar</label>
+				<textarea class="form-control" rows="5" id="comment"></textarea>
+			</div>
+		</div>
+		<div class="row">
+			<div class="form-group">
+				<label for="ortbox">Ort</label>
+				<input type="text" class="form-control" id="ortbox" placeholder="Ort..."/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="form-group">
+				<label for="zeitbox">Zeiten</label>
+				<input type="text" class="form-control" id="zeitbox" placeholder="Zeiten..."/>
+			</div>
+		</div>
+		<div class="row">
+			<a href="#"><div class="menuitem absendenbutton">Absenden</div></a>
+		</div>
     </section>
-    <div id="send">
-      <a href="./../anzeigen.html" ><div class="button" >Absenden</div></a>
-    </div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
