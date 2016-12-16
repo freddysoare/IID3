@@ -40,7 +40,6 @@ nav {
 }
 
 #content label {
-	color: white;
 	font-weight: bold;
 	display: block;
 }
@@ -57,6 +56,6 @@ nav {
 }
 
 .jumbotron {
-	background-color: #3b7178;
+	background-color: #eee;
 	height: 100%;
 }

@@ -1,14 +1,9 @@
 
 
-body {
-	background-color: #111c27;
-}
-
 /* nav für die Angebote/Anzeigen-Navigation */
 nav {
 	text-align: left;;
 	padding: 0px 5px;
-	background-color: #111c27;
 }
 
 
@@ -31,11 +26,9 @@ nav {
 /* Der Hauptinhaltsbereich, in welchem der Hauptteil der Seite (unterhalb des Menüs) ist */
 #content {
 	padding: 5px;
-	background-color: #111c27;
 }
 
 #content h2 {
-	color: white;
 	font-weight: bold;
 }
 
@@ -51,6 +44,6 @@ nav {
 }
 
 .jumbotron {
-	background-color: #3b7178;
+	background-color: #eee;
 	height: 100%;
 }
