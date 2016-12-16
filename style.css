@@ -1,5 +1,19 @@
-header {
-	background-color: #27566B;
+header {p {
+	font-weight: normal;
+}
+
+.buttonbar {
+	text-align: center;
+}
+
+.buttonbar button {
+	margin: 5px 20px;
+}
+
+.entry textarea {
+	width: 100%;
+}
+	background-color: #111c27;
 }
 
 header .right{
@@ -12,18 +26,18 @@ header .right{
 .glyphicon-bell {
 	font-size: 25px;
 	margin-top: -25px;
-	color: #AA4F39;
+	color: #f6793f;
 }
 
 body {
-	background-color: #27566B;
+	background-color: #111c27;
 }
 
 /* nav für die Angebote/Anzeigen-Navigation */
 nav {
 	text-align: center;
 	padding: 0px 5px;
-	background-color: #27566B;
+	background-color: #111c27;
 }
 
 /* Link-Farbe im Menü bleibt schwarz*/
@@ -68,7 +82,7 @@ nav.backnavbar {
 	margin: 0;
 	padding: 5px 3px;
 	border: 1px solid black;
-	background-color: #AA4F39;
+	background-color: #3b7178;
 	color: white;
 	font-weight: bold;
 	font-size: 1.2em;
@@ -76,18 +90,18 @@ nav.backnavbar {
 
 /* Auswahlfarbe fürs Menü*/
 .menuitem:active {
-	background-color: #AA8A39;
+	background-color: #f6793f;
 }
 
 /* Derzeit ausgewähltes Menüitem*/
 .mi_active {
-	background-color: #AA8A39;
+	background-color: #f6793f;
 }
 
 /* Der Hauptinhaltsbereich, in welchem der Hauptteil der Seite (unterhalb des Menüs) ist */
 #content {
 	padding: 5px;
-	background-color: #27566B;
+	background-color: #111c27;
 }
 
 /* Keine Linkfarbe im Content */
@@ -98,7 +112,7 @@ nav.backnavbar {
 #searchbar {
 	width: 100%;
 	display: table;
-	background-color: #27566B;
+	background-color: #111c27;
 }
 
 /*Serachbar braucht intern einen weiteren Div, damit das Table-Layout funktioniert*/
@@ -117,7 +131,7 @@ nav.backnavbar {
 	display: table-cell;
 	min-width: 14px;
 	margin-left: 4px;
-	background-color: #AA4F39;
+	background-color: #f6793f;
 }
 
 /* Innerhalb des Contents werden Rows mit etwas mehr Margin versehen*/
@@ -126,7 +140,7 @@ nav.backnavbar {
 }
 
 #content .row.entry {
-	background-color: #6E92A1;
+	background-color: #3b7178;
 }
 
 /* Label für die Kategorie-ComboBoxes. Verschiebt es leicht nach unten, damits halbwegs vertikal zentriert ausschaut */
@@ -143,7 +157,7 @@ nav.backnavbar {
 	border-radius: 16px;
 	float: right;
 	margin-right: 10px;
-	background-color: #AA4F39;
+	background-color: #f6793f;
 }
 
 .addbutton span {
@@ -194,7 +208,7 @@ h2.small {
 }
 
 header a {
-	color: #AA4F39;
+	color: #f6793f;
 }
 
 section .row {
@@ -203,7 +217,7 @@ section .row {
 }
 
 .form-control {
-	background-color: #6E92A1;
+	background-color: #3b7178;
 	color: white;
 	font-weight: bold;
 }
@@ -211,6 +225,29 @@ section .row {
 .jumbotron {
 	background-color: #A6C5D3;
 	height: 100%;
+}
+
+.absendenbutton {
+	background-color: #f6793f;
+	text-align: center;
+}
+
+.bildauswaehlen_feld {
+	background-color: #3b7178;
+	border: 1px solid #ccc;
+	width: 200px;
+	height: 200px;
+	display: table;
+	text-align: center;
+}
+
+.bildauswaehlen_text {
+	width: auto;
+	height: auto;
+	margin: 0px auto;
+	display: table-cell;
+    vertical-align: middle;
+	color: white;
 }
 
 p {
