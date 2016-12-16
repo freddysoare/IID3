@@ -37,10 +37,12 @@ nav a {
 nav.backnavbar {
 	padding: 5px;
 	margin: 5px;
-	background-color: #A6C5D3;
+	background-color: #f6793f;
 	display: block;
 	height: 30px;
 	font-size: 15px;
+	font-weight: bold;
+	color: black;
 }
 
 .navbar_left {
@@ -159,6 +161,7 @@ nav.backnavbar {
 .entry {
 	border: 1px solid black;
 	padding: 4px;
+	background-color: #eee;
 }
 
 /* Klickfarbe für die Einträge*/
@@ -218,7 +221,7 @@ section .row {
 }
 
 .bildauswaehlen_feld {
-	background-color: #3b7178;
+	background-color: #f6793f;
 	border: 1px solid #ccc;
 	width: 200px;
 	height: 200px;
