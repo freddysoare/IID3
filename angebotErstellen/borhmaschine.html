@@ -10,6 +10,7 @@
     <!-- Bootstrap -->
     <link href="./../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="./../style.css" rel="stylesheet">
+    <link href="./angebot-detail.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -40,36 +41,38 @@
       </div>
     </header>
 
-    <nav>
-      <a href="angebotErstellenNeu.html"><div class="menuitem">Neu</div></a><div class="menuitem mi_active">Bestehend</div>
+    <nav class="backnavbar">
+      <a href="#" onclick="history.back()">
+        <div class="navbar_left">
+          &lt; Zur&uuml;ck
+        </div>
+      </a>
     </nav>
 
     <section id="content">
-
-
-		<div class="row">
-			<div class="col-xs-6 col-md-4">
-				<div class="row">
-					<div class="form-group">
-						<label for="zustandbox">Bestehendes Angebot vorschlagen:</label>
-						<div class="row">
-							<div class="col-sm-6">
-								<select class="form-control" id="zustandbox">
-									<option>Borhmaschine</option>
-									<option>Schachbrett</option>
-									<option>Gartenschere</option>
-								</select>
-							</div>
-						</div>
-					</div>
-				</div>
+      <div class="jumbotron">
+        <div class="content-part">
+          <img src="./../img/Bohrmaschine.jpg" alt="Bohrmaschine" />
+        </div>
+        <div class="content-part">
+          <h2>Bohrmaschine</h2>
+          <p>User: <a href="#">Hasi86</a> <span class="glyphicon glyphicon-star"></span><span class="badge">12</span></p>
+          <p>Zustand: Selten gebraucht</p>
+        </div>
+        <div class="content-detail">
+          Eine Bosch Schlagborhmaschine Gsb 13 Re.
+          Guter Zustand, verwende ich nur selten, daher
+          kann ich sie gerne ab und zu herleihen.
+          <p></p>
+          <p>Ort: Hausfeldstraße 12, 1220 Wien</p>
+          <p>Zeit: Mo-Fr jeweils Abends</p>
+        </div>
       </div>
-    </div>
-
-		<div class="row">
-			<a href="./borhmaschine.html"><div class="menuitem absendenbutton">Absenden</div></a>
-		</div>
+      <div id="send">
+        Angebot gesendet - Antwort ausstehend
+      </div>
     </section>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
