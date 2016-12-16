@@ -19,10 +19,6 @@
 	padding: 5px;
 }
 
-/* Keine Linkfarbe im Content */
-#content a {
-	color: #D47E6A;
-}
 
 /* Bild und Text müssen in zwei Entryparts geteilt werden, damit sie schön nebeneinander sind*/
 .content-part {
