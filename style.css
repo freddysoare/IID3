@@ -121,7 +121,7 @@ nav.backnavbar {
 }
 
 /* Innerhalb des Contents werden Rows mit etwas mehr Margin versehen*/
-#content .row {
+#content > .row {
 	margin: 5px 5px 0px 5px;
 }
 
@@ -216,6 +216,7 @@ section .row {
 .absendenbutton {
 	background-color: #f6793f;
 	text-align: center;
+	width: 25%;
 }
 
 .bildauswaehlen_feld {
