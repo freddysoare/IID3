@@ -1,10 +1,10 @@
 header {
-	background-color: #111c27;
+	background-color: #white;
 }
 
 header .right{
 	text-align: right;
-	color: white;
+	color: black;
 	font-weight: bold;
 }
 
@@ -12,18 +12,21 @@ header .right{
 .glyphicon-bell {
 	font-size: 25px;
 	margin-top: -25px;
+}
+
+.messages {
 	color: #f6793f;
 }
 
 body {
-	background-color: #111c27;
+	background-color: #white;
 }
 
 /* nav für die Angebote/Anzeigen-Navigation */
 nav {
 	text-align: center;
 	padding: 0px 5px;
-	background-color: #111c27;
+	background-color: #white;
 }
 
 /* Link-Farbe im Menü bleibt schwarz*/
@@ -34,10 +37,12 @@ nav a {
 nav.backnavbar {
 	padding: 5px;
 	margin: 5px;
-	background-color: #A6C5D3;
+	background-color: #f6793f;
 	display: block;
 	height: 30px;
 	font-size: 15px;
+	font-weight: bold;
+	color: black;
 }
 
 .navbar_left {
@@ -68,8 +73,8 @@ nav.backnavbar {
 	margin: 0;
 	padding: 5px 3px;
 	border: 1px solid black;
-	background-color: #3b7178;
-	color: white;
+	background-color: white;
+	color: black;
 	font-weight: bold;
 	font-size: 1.2em;
 }
@@ -87,7 +92,7 @@ nav.backnavbar {
 /* Der Hauptinhaltsbereich, in welchem der Hauptteil der Seite (unterhalb des Menüs) ist */
 #content {
 	padding: 5px;
-	background-color: #111c27;
+	background-color: #white;
 }
 
 /* Keine Linkfarbe im Content */
@@ -98,7 +103,7 @@ nav.backnavbar {
 #searchbar {
 	width: 100%;
 	display: table;
-	background-color: #111c27;
+	background-color: #white;
 }
 
 /*Serachbar braucht intern einen weiteren Div, damit das Table-Layout funktioniert*/
@@ -126,7 +131,6 @@ nav.backnavbar {
 }
 
 #content .row.entry {
-	background-color: #3b7178;
 }
 
 /* Label für die Kategorie-ComboBoxes. Verschiebt es leicht nach unten, damits halbwegs vertikal zentriert ausschaut */
@@ -157,6 +161,7 @@ nav.backnavbar {
 .entry {
 	border: 1px solid black;
 	padding: 4px;
+	background-color: #eee;
 }
 
 /* Klickfarbe für die Einträge*/
@@ -174,7 +179,7 @@ nav.backnavbar {
 }
 
 h1 {
-	color: white;
+	color: black;
 	font-weight: bold;
 	font-variant: small-caps;
 }
@@ -195,11 +200,12 @@ h2.small {
 }
 
 header a {
-	color: #f6793f;
+	color: black;
+	font-weight: normal;
 }
 
 section .row {
-	color: white;
+	color: black;
 	font-weight: bold;
 }
 
@@ -215,7 +221,7 @@ section .row {
 }
 
 .bildauswaehlen_feld {
-	background-color: #3b7178;
+	background-color: #f6793f;
 	border: 1px solid #ccc;
 	width: 180px;
 	height: 180px;
@@ -229,7 +235,7 @@ section .row {
 	margin: 0px auto;
 	display: table-cell;
     vertical-align: middle;
-	color: white;
+	color: black;
 }
 
 p {
@@ -256,7 +262,7 @@ p {
 
 
 #content p > a {
-	color: white;
+	color: black;
 	text-decoration: underline;
 }
 
