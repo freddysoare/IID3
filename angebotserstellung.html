@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>StuffHub</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <header class="container">
+      <div class="col-xs-6">
+        <h1>StuffHub</h1>
+      </div>
+      <div class="col-xs-6 right">
+        <div class="row">
+          Hallo Tim!
+        </div>
+        <div class="row">
+          <a href="#">Profile</a> | <a href="#">Logout</a>
+        </div>
+        <span class="glyphicon glyphicon-bell" style="float: left"></span>
+        <div class="row">
+          <a href="#">3 neue Nachrichten</a>
+        </div>
+      </div>
+    </header>
+
+    <section id="content">
+		<div class="row">
+			<div class="form-group">
+				<label for="bezeichnungbox">Bezeichnung</label>
+				<input type="text" class="form-control" id="bezeichnungbox" placeholder="Bezeichnung..."/>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-xs-6 col-md-4">
+				<div class="row">
+					<div class="form-group">
+						<label for="zustandbox">Zustand</label>
+						<div class="row">
+							<div class="col-sm-6">
+								<select class="form-control" id="zustandbox">
+									<option>Neu</option>
+									<option>Gebraucht</option>
+									<option>Keine Angabe</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="form-group">
+						<label for="category">Kategorie</label>
+						<div class="row">
+							<div class="col-sm-6">
+								<select class="form-control" id="category">
+									<option>Alle</option>
+									<option>Garten</option>
+									<option>Innenraum</option>
+									<option>Deko</option>
+									<option>Spiele</option>
+									<option>Medien</option>
+									<option>Fitness</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="form-group">
+						<label for="category">Subkategorie</label>
+						<div class="row">
+							<div class="col-sm-6">
+								<select class="form-control" id="category">
+									<option>Alle</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-6 col-md-4">
+				<a href="#">
+					<div class="bildauswaehlen_feld">
+						<div class="bildauswaehlen_text">Bild ausw&auml;hlen...</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="form-group">
+				<label for="kommentarbox">Kommentar</label>
+				<textarea class="form-control" rows="5" id="comment"></textarea>
+			</div>
+		</div>
+		<div class="row">
+			<div class="form-group">
+				<label for="ortbox">Ort</label>
+				<input type="text" class="form-control" id="ortbox" placeholder="Ort..."/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="form-group">
+				<label for="zeitbox">Zeiten</label>
+				<input type="text" class="form-control" id="zeitbox" placeholder="Zeiten..."/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<a href="#"><div class="menuitem absendenbutton">Absenden</div></a>
+			</div>
+		</div>
+    </section>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
