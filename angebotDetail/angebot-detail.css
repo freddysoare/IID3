@@ -1,0 +1,77 @@
+
+
+body {
+	background-color: #27566B;
+}
+
+/* nav für die Angebote/Anzeigen-Navigation */
+nav {
+	text-align: left;;
+	padding: 0px 5px;
+	background-color: #27566B;
+}
+
+
+/* Menüitem der Angebote/Anzeigen-Navigation */
+.button {
+	text-align: center;
+	box-sizing: border-box;
+	width: 50%;
+	display: inline-block;
+	margin: 0;
+	padding: 5px 3px;
+	border: 1px solid black;
+	background-color: #103D50;
+	color: white;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+
+/* Der Hauptinhaltsbereich, in welchem der Hauptteil der Seite (unterhalb des Menüs) ist */
+#content {
+	padding: 5px;
+	background-color: #27566B;
+}
+
+/* Keine Linkfarbe im Content */
+#content a {
+	color: #D47E6A;
+}
+
+/* Bild und Text müssen in zwei Entryparts geteilt werden, damit sie schön nebeneinander sind*/
+.content-part {
+	display: inline-block;
+	color: white;
+	font-weight: bold;
+}
+
+.content-part img {
+	float: left;
+	width: 150px;
+	border: 1px solid black;
+}
+
+.content-detail {
+	font-size: 1em;
+	color: white;
+	font-weight: bold;
+}
+
+.content-detail p{
+	font-size: 1em;
+	font-weight: bold;
+}
+
+#createOrder {
+	text-align: center;
+}
+
+#send {
+	text-align: center;
+}
+
+.jumbotron {
+	background-color: #A6C5D3;
+	height: 100%;
+}
