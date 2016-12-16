@@ -216,12 +216,13 @@ section .row {
 
 .absendenbutton {
 	background-color: #f6793f;
+	color: black;
 	text-align: center;
 	width: 25%;
 }
 
 .bildauswaehlen_feld {
-	background-color: #f6793f;
+	background-color: #103D50;
 	border: 1px solid #ccc;
 	width: 180px;
 	height: 180px;
@@ -235,7 +236,7 @@ section .row {
 	margin: 0px auto;
 	display: table-cell;
     vertical-align: middle;
-	color: black;
+	color: white;
 }
 
 p {
