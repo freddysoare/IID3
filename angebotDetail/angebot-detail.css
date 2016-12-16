@@ -1,17 +1,3 @@
-
-
-body {
-	background-color: #111c27;
-}
-
-/* nav für die Angebote/Anzeigen-Navigation */
-nav {
-	text-align: left;;
-	padding: 0px 5px;
-	background-color: #111c27;
-}
-
-
 /* Menüitem der Angebote/Anzeigen-Navigation */
 .button {
 	text-align: center;
@@ -27,22 +13,9 @@ nav {
 	font-size: 1.2em;
 }
 
-
-/* Der Hauptinhaltsbereich, in welchem der Hauptteil der Seite (unterhalb des Menüs) ist */
-#content {
-	padding: 5px;
-	background-color: #111c27;
-}
-
-/* Keine Linkfarbe im Content */
-#content a {
-	color: #D47E6A;
-}
-
 /* Bild und Text müssen in zwei Entryparts geteilt werden, damit sie schön nebeneinander sind*/
 .content-part {
 	display: inline-block;
-	color: white;
 	font-weight: bold;
 }
 
@@ -54,7 +27,6 @@ nav {
 
 .content-detail {
 	font-size: 1em;
-	color: white;
 	font-weight: bold;
 }
 
@@ -72,6 +44,6 @@ nav {
 }
 
 .jumbotron {
-	background-color: #3b7178;
+	background-color: #eee;
 	height: 100%;
 }
