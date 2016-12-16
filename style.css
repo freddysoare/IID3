@@ -217,8 +217,8 @@ section .row {
 .bildauswaehlen_feld {
 	background-color: #3b7178;
 	border: 1px solid #ccc;
-	width: 200px;
-	height: 200px;
+	width: 180px;
+	height: 180px;
 	display: table;
 	text-align: center;
 }

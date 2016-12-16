@@ -47,8 +47,10 @@
     <section id="content">
       <div id="searchbar">
         <div>
-          <input type="text" class="form-control" id="searchbox" placeholder="Suche..."/>
-          <button class="btn" id="searchbutton" type="button" style="background-color: white;"><span class=" glyphicon glyphicon-search"></span></button>
+          <form action="javascript:search()">
+            <input type="text" class="form-control" id="searchbox" placeholder="Suche..."/>
+            <button class="btn" id="searchbutton" type="submit" style="background-color: white;"><span class=" glyphicon glyphicon-search"></span></button>
+          </form>
         </div>
       </div>
 
