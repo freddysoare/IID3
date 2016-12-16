@@ -51,3 +51,12 @@ function search() {
 		$("h2:not(:contains('" + $("#searchbox").val() + "'))").parent().parent().parent().hide();
 	}
 }
+
+function toggleVisibility(descr) {
+	var obj = $(descr);
+	if (obj.css("display") == "none") {
+		obj.css("display", "block");
+	} else {
+		obj.css("display", "none");
+	}
+}
